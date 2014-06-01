@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAF71EDA193AF6C600B1341E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF71ED9193AF6C600B1341E /* Foundation.framework */; };
+		EAF71EDC193AF6C600B1341E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF71EDB193AF6C600B1341E /* CoreGraphics.framework */; };
+		EAF71EDE193AF6C600B1341E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF71EDD193AF6C600B1341E /* UIKit.framework */; };
+		EAF71EE4193AF6C600B1341E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF71EE2193AF6C600B1341E /* InfoPlist.strings */; };
+		EAF71EE6193AF6C600B1341E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF71EE5193AF6C600B1341E /* main.m */; };
+		EAF71EEA193AF6C600B1341E /* RVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF71EE9193AF6C600B1341E /* RVAppDelegate.m */; };
+		EAF71EED193AF6C600B1341E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF71EEB193AF6C600B1341E /* Main.storyboard */; };
+		EAF71EF0193AF6C600B1341E /* RVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF71EEF193AF6C600B1341E /* RVViewController.m */; };
+		EAF71EF2193AF6C600B1341E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAF71EF1193AF6C600B1341E /* Images.xcassets */; };
+		EAF71EF9193AF6C600B1341E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF71EF8193AF6C600B1341E /* XCTest.framework */; };
+		EAF71EFA193AF6C600B1341E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF71ED9193AF6C600B1341E /* Foundation.framework */; };
+		EAF71EFB193AF6C600B1341E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF71EDD193AF6C600B1341E /* UIKit.framework */; };
+		EAF71F03193AF6C600B1341E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAF71F01193AF6C600B1341E /* InfoPlist.strings */; };
+		EAF71F05193AF6C600B1341E /* Pirate_AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF71F04193AF6C600B1341E /* Pirate_AdventureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF71EFC193AF6C600B1341E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF71ECE193AF6C600B1341E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF71ED5193AF6C600B1341E;
+			remoteInfo = "Pirate Adventure";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAF71ED6193AF6C600B1341E /* Pirate Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF71ED9193AF6C600B1341E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAF71EDB193AF6C600B1341E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAF71EDD193AF6C600B1341E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAF71EE1193AF6C600B1341E /* Pirate Adventure-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Adventure-Info.plist"; sourceTree = "<group>"; };
+		EAF71EE3193AF6C600B1341E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAF71EE5193AF6C600B1341E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAF71EE7193AF6C600B1341E /* Pirate Adventure-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pirate Adventure-Prefix.pch"; sourceTree = "<group>"; };
+		EAF71EE8193AF6C600B1341E /* RVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVAppDelegate.h; sourceTree = "<group>"; };
+		EAF71EE9193AF6C600B1341E /* RVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVAppDelegate.m; sourceTree = "<group>"; };
+		EAF71EEC193AF6C600B1341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAF71EEE193AF6C600B1341E /* RVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RVViewController.h; sourceTree = "<group>"; };
+		EAF71EEF193AF6C600B1341E /* RVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RVViewController.m; sourceTree = "<group>"; };
+		EAF71EF1193AF6C600B1341E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAF71EF7193AF6C600B1341E /* Pirate AdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate AdventureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF71EF8193AF6C600B1341E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EAF71F00193AF6C600B1341E /* Pirate AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AdventureTests-Info.plist"; sourceTree = "<group>"; };
+		EAF71F02193AF6C600B1341E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAF71F04193AF6C600B1341E /* Pirate_AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdventureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAF71ED3193AF6C600B1341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF71EDC193AF6C600B1341E /* CoreGraphics.framework in Frameworks */,
+				EAF71EDE193AF6C600B1341E /* UIKit.framework in Frameworks */,
+				EAF71EDA193AF6C600B1341E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF71EF4193AF6C600B1341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF71EF9193AF6C600B1341E /* XCTest.framework in Frameworks */,
+				EAF71EFB193AF6C600B1341E /* UIKit.framework in Frameworks */,
+				EAF71EFA193AF6C600B1341E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAF71ECD193AF6C600B1341E = {
+			isa = PBXGroup;
+			children = (
+				EAF71EDF193AF6C600B1341E /* Pirate Adventure */,
+				EAF71EFE193AF6C600B1341E /* Pirate AdventureTests */,
+				EAF71ED8193AF6C600B1341E /* Frameworks */,
+				EAF71ED7193AF6C600B1341E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAF71ED7193AF6C600B1341E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71ED6193AF6C600B1341E /* Pirate Adventure.app */,
+				EAF71EF7193AF6C600B1341E /* Pirate AdventureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAF71ED8193AF6C600B1341E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71ED9193AF6C600B1341E /* Foundation.framework */,
+				EAF71EDB193AF6C600B1341E /* CoreGraphics.framework */,
+				EAF71EDD193AF6C600B1341E /* UIKit.framework */,
+				EAF71EF8193AF6C600B1341E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAF71EDF193AF6C600B1341E /* Pirate Adventure */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71EE8193AF6C600B1341E /* RVAppDelegate.h */,
+				EAF71EE9193AF6C600B1341E /* RVAppDelegate.m */,
+				EAF71EEB193AF6C600B1341E /* Main.storyboard */,
+				EAF71EEE193AF6C600B1341E /* RVViewController.h */,
+				EAF71EEF193AF6C600B1341E /* RVViewController.m */,
+				EAF71EF1193AF6C600B1341E /* Images.xcassets */,
+				EAF71EE0193AF6C600B1341E /* Supporting Files */,
+			);
+			path = "Pirate Adventure";
+			sourceTree = "<group>";
+		};
+		EAF71EE0193AF6C600B1341E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71EE1193AF6C600B1341E /* Pirate Adventure-Info.plist */,
+				EAF71EE2193AF6C600B1341E /* InfoPlist.strings */,
+				EAF71EE5193AF6C600B1341E /* main.m */,
+				EAF71EE7193AF6C600B1341E /* Pirate Adventure-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAF71EFE193AF6C600B1341E /* Pirate AdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71F04193AF6C600B1341E /* Pirate_AdventureTests.m */,
+				EAF71EFF193AF6C600B1341E /* Supporting Files */,
+			);
+			path = "Pirate AdventureTests";
+			sourceTree = "<group>";
+		};
+		EAF71EFF193AF6C600B1341E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAF71F00193AF6C600B1341E /* Pirate AdventureTests-Info.plist */,
+				EAF71F01193AF6C600B1341E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAF71ED5193AF6C600B1341E /* Pirate Adventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF71F08193AF6C600B1341E /* Build configuration list for PBXNativeTarget "Pirate Adventure" */;
+			buildPhases = (
+				EAF71ED2193AF6C600B1341E /* Sources */,
+				EAF71ED3193AF6C600B1341E /* Frameworks */,
+				EAF71ED4193AF6C600B1341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirate Adventure";
+			productName = "Pirate Adventure";
+			productReference = EAF71ED6193AF6C600B1341E /* Pirate Adventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAF71EF6193AF6C600B1341E /* Pirate AdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF71F0B193AF6C600B1341E /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */;
+			buildPhases = (
+				EAF71EF3193AF6C600B1341E /* Sources */,
+				EAF71EF4193AF6C600B1341E /* Frameworks */,
+				EAF71EF5193AF6C600B1341E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF71EFD193AF6C600B1341E /* PBXTargetDependency */,
+			);
+			name = "Pirate AdventureTests";
+			productName = "Pirate AdventureTests";
+			productReference = EAF71EF7193AF6C600B1341E /* Pirate AdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAF71ECE193AF6C600B1341E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ronnie VanVarden";
+				TargetAttributes = {
+					EAF71EF6193AF6C600B1341E = {
+						TestTargetID = EAF71ED5193AF6C600B1341E;
+					};
+				};
+			};
+			buildConfigurationList = EAF71ED1193AF6C600B1341E /* Build configuration list for PBXProject "Pirate Adventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAF71ECD193AF6C600B1341E;
+			productRefGroup = EAF71ED7193AF6C600B1341E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAF71ED5193AF6C600B1341E /* Pirate Adventure */,
+				EAF71EF6193AF6C600B1341E /* Pirate AdventureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAF71ED4193AF6C600B1341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF71EF2193AF6C600B1341E /* Images.xcassets in Resources */,
+				EAF71EE4193AF6C600B1341E /* InfoPlist.strings in Resources */,
+				EAF71EED193AF6C600B1341E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF71EF5193AF6C600B1341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF71F03193AF6C600B1341E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAF71ED2193AF6C600B1341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF71EEA193AF6C600B1341E /* RVAppDelegate.m in Sources */,
+				EAF71EF0193AF6C600B1341E /* RVViewController.m in Sources */,
+				EAF71EE6193AF6C600B1341E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF71EF3193AF6C600B1341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF71F05193AF6C600B1341E /* Pirate_AdventureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF71EFD193AF6C600B1341E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF71ED5193AF6C600B1341E /* Pirate Adventure */;
+			targetProxy = EAF71EFC193AF6C600B1341E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAF71EE2193AF6C600B1341E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF71EE3193AF6C600B1341E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAF71EEB193AF6C600B1341E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF71EEC193AF6C600B1341E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAF71F01193AF6C600B1341E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAF71F02193AF6C600B1341E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAF71F06193AF6C600B1341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAF71F07193AF6C600B1341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAF71F09193AF6C600B1341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Pirate Adventure/Pirate Adventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAF71F0A193AF6C600B1341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Pirate Adventure/Pirate Adventure-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EAF71F0C193AF6C600B1341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pirate Adventure.app/Pirate Adventure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate AdventureTests/Pirate AdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EAF71F0D193AF6C600B1341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pirate Adventure.app/Pirate Adventure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Adventure/Pirate Adventure-Prefix.pch";
+				INFOPLIST_FILE = "Pirate AdventureTests/Pirate AdventureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAF71ED1193AF6C600B1341E /* Build configuration list for PBXProject "Pirate Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF71F06193AF6C600B1341E /* Debug */,
+				EAF71F07193AF6C600B1341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF71F08193AF6C600B1341E /* Build configuration list for PBXNativeTarget "Pirate Adventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF71F09193AF6C600B1341E /* Debug */,
+				EAF71F0A193AF6C600B1341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAF71F0B193AF6C600B1341E /* Build configuration list for PBXNativeTarget "Pirate AdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF71F0C193AF6C600B1341E /* Debug */,
+				EAF71F0D193AF6C600B1341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAF71ECE193AF6C600B1341E /* Project object */;
+}
